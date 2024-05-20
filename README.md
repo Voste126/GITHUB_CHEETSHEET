@@ -53,6 +53,9 @@
 |                       | Deletes a tag                                       | `git tag -d <tag_name>`                  |
 |                       | Shows information about the given tag               | `git show <tag_name>`                    |
 |                       | Verifies the GPG signature of a tag                 | `git tag -v <tag_name>`                  |
+|                       | Lists tags that match a specific pattern            | `git tag -l 'v1.*'`                      |
+|                       | Creates a lightweight tag                          | `git tag v1.0`                           |
+|                       | Pushes all tags to remote repository                | `git push --tags`                        |
 | `git version`         | Displays the current Git version installed on your system | `git --version`                      |
 | `git web`             | Provides a web front-end to Git repositories        | `git instaweb --port=8080`               |
 | `git send-email`      | Sends your email submission without corruption by your MUA | `git send-email --to=recipient@example.com path/to/patchfile.patch` |
