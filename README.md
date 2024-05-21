@@ -73,3 +73,5 @@
 | `git blame`           | Shows what revision and author last modified each line of a file | `git blame <file>`                    |
 | `git clean`           | Removes untracked files from the working directory  | `git clean -f`                           |
 | `git archive`         | Creates an archive of files from a named tree       | `git archive --format=tar <commit> <path>` |
+
+### THESE ARE THE BLUEPRINT COMMANDS FOR DEVOPS Developers
